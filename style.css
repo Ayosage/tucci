@@ -1,0 +1,109 @@
+
+body {
+  font-family: 'Literata', serif;
+  }
+
+.navbar {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ border-bottom: 1px solid #F2F2F2;
+
+
+}
+.logo {
+ margin-left: 5%;
+}
+.logo img {
+ display: block;
+}
+nav {
+ align-self: center;
+ margin: 1.5em 0 0 5%;
+}
+header ul li {
+ display: inline-block;
+ padding: 0 1.4em 0 0;
+ font-size: 0.9em;
+}
+header ul li a {
+ text-decoration: none;
+ color: #7D7C7D;
+}
+li a.active {
+ color: #000000;
+ border-bottom: 2px solid #000000;
+ font-weight: 300;
+}
+li a:hover {
+ color: #B6B6B6;
+}
+}
+#li1:hover a {
+   display: none;
+}
+#li1 a:hover:before {
+  color: #000000;
+  content: "Acerca"
+}
+
+#land {
+  background-image: url("../resource/GCNP.jpg");
+  background-position: center;
+  background-color: #c89595;
+  padding: .5em;
+  background-size: cover;
+}
+#land h1 {
+  color: #FEEEEE;
+  text-align: center;
+  font-size: 2em;
+}
+
+#land p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 2em;
+
+}
+
+.contact{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #c89595;
+margin: 1em;
+}
+
+#picture {
+  margin: 1em;
+}
+
+#cntinfo {
+  background-color: #FFFFFF;
+  margin: .5em;
+  border-color: #c89595;
+  text-decoration: none;
+}
+
+#cntinfo img {
+  margin: .5em;
+  height: 1.5em;
+  width: 1.5em;
+  text-decoration: none;
+}
+
+#img1 {
+  border-radius: 50%;
+}
+
+#uazlogo {
+  height: 70%;
+  width: 70%;
+}
+
+.edu2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
